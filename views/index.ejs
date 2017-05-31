@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<% include ./partials/head %>
+
+<body class="Site">
+<% include ./partials/nav %>
+
+
+<div class="Site-content">
+<h1 class="sass-example one">Who played James Bond</h1>
+
+<img class="one" src="https://lh4.googleusercontent.com/-QghOeQpiavs/AAAAAAAAAAI/AAAAAAAAWgA/HAr-ajwhHSs/s0-c-k-no-ns/photo.jpg">
+<% for (var i = 0; i < this.name.length; i++) { %>
+	<div class="two"><h2 class="sass-example"><%= i +1 %>. <%= name[i] %></h2></div>
+<% } %>
+</div>
+
+
+
+<% include ./partials/footer %>
+</body>
+<!-- jQuery library -->
+
+</html>

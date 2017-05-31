@@ -1,0 +1,56 @@
+@import "lib/bourbon/bourbon";
+
+$main-col: #555;
+$weight: bold;
+
+
+//site layout
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+
+
+
+// custom stles
+.sass-example{
+	color: $main-col;
+	font-weight: $weight;
+	}
+.one{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 3%;
+	margin-bottom: 3%;
+
+	}
+
+.two{
+	display: flex;
+	justify-content: flex-start;
+	margin: auto;
+	text-align: left;
+	width: 12%;
+
+
+	}
+
+
+// nav
+.bg-faded{
+	height: 20%;
+
+}
+
+
+// footer
+.footer{
+	margin-top: 3%;
+
+}
